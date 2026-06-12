@@ -251,3 +251,7 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Exceptions for specific data folders to be tracked
+!notebooks/data/
+!notebooks/data/**
