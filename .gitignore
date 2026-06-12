@@ -216,3 +216,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# YOLO / Object Detection
+runs/
+wandb/
+
+# Models
+models/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Dataset
+data/
+data/raw/
+data/processed/
+data/labeled
+data/unlabeled/
+
+# Results
+results/
+predictions/
+
+# Project Logs
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
